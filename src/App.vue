@@ -11,7 +11,7 @@
       </nav>
     </header>
     <main>
-      <RobotBuilder/>
+        <RobotBuilder/>
     </main>
   </div>
 </template>
@@ -33,11 +33,12 @@ body {
   background: linear-gradient(to bottom, #555, #999);
   background-attachment: fixed;
 }
+</style>
 
+<style scoped>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
-
 main {
   margin: 0 auto;
   padding: 30px;
@@ -45,7 +46,6 @@ main {
   width: 1024px;
   min-height: 300px;
 }
-
 header {
   background-color: #999;
   width: 1084px;
